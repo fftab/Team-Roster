@@ -20,26 +20,22 @@ function init() {
             {
                 type: "input",
                 name: "managerName",
-                message: "What is the manager's name?",
-                validate: 
+                message: "What is the manager's name?"
             },
             {
                 type: "input",
                 name: "managerId",
-                message: "What is the Manager's ID?",
-                validation: ""
+                message: "What is the Manager's ID?"
             },
             {
                 type: "input",
                 name: "managerEmail",
-                message: "What is the Manager's email address?",
-                validate: ""
+                message: "What is the Manager's email address?"
             },
             {
                 type: "input",
                 name: "managerNumber",
-                message: "What is the Manager's office phone number?",
-                validate: ""
+                message: "What is the Manager's office phone number?"
             }
         ]).then((res) => {
             // console.log(responses);
